@@ -1,0 +1,11 @@
+com\example\demo\DemoController.class
+com\example\demo\DemoApplication.class
+com\example\demo\MailDeletionService.class
+com\example\demo\ExpirationCalculationService.class
+com\example\demo\MailManagementService.class
+com\example\demo\MailManagementService$Mail.class
+com\example\demo\MailCategorizationService.class
+com\example\demo\DeadlineExtractionService2.class
+com\example\demo\DeadlineExtractionService.class
+com\example\demo\EmailLinkExtractor.class
+com\example\demo\MailCategorizationService2.class

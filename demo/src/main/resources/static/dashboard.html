@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include Chart.js library -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+</head>
+<body>
+    <div id="dashboard">
+        <!-- Section 1: User Info and Pie Chart -->
+        <div id="user-info">
+            <!-- Display user name and unique user id -->
+            <p>User Name: John Doe</p>
+            <p>User ID: ABC123</p>
+        </div>
+        <div id="pie-chart">
+            <!-- Display Pie Chart using Chart.js -->
+            <canvas id="emailPieChart" width="150" height="150"></canvas>
+        </div>
+
+        <!-- Section 2: Category Columns -->
+        <div id="category-columns">
+            <!-- Category Column: Form -->
+            <div class="category-column" id="form-category">
+                <h2>Form Category</h2>
+                <!-- Emails will be dynamically added here -->
+            </div>
+
+            <!-- Category Column: Meeting -->
+            <div class="category-column" id="meeting-category">
+                <h2>Meeting Category</h2>
+                <!-- Emails will be dynamically added here -->
+            </div>
+
+            <!-- Category Column: OTP -->
+            <div class="category-column" id="otp-category">
+                <h2>OTP Category</h2>
+                <!-- Emails will be dynamically added here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
